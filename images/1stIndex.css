@@ -1,0 +1,116 @@
+body{
+  margin:0;
+  padding:0;
+}
+.BodyCont{
+  margin: 4px 0 0 0;
+  padding: 0;
+  width: 1300px;
+  height: 650px;
+}
+p{
+  color:black
+}
+nav{
+width: 7%;
+height: 100%;
+margin: 0;
+padding:2px;
+text-align: center;
+border-style: outset;
+border: 1px solid navy;
+display: inline-block;
+}
+
+.container{
+  padding: 2px;
+  width: 50%;
+  height: 100%;
+  margin:0;
+  border: 1px solid red;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+
+}
+
+.logo{
+  margin: 20px auto;
+  width: 79px;
+  height: 80px;
+}
+.logo1{
+  margin: 10px auto;
+  width: 69px;
+  height: 60px;
+}
+.social{
+  margin: 5px auto;
+  width: 30px;
+  height: 30px;
+}
+img{
+  border-radius: 3px;
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  text-align: left;
+  margin:0;
+  padding:10px 0 0 15px;
+}
+nav ul li{
+  list-style: none;
+  text-decoration: none;
+  color:;
+}
+#intPg{
+  color:red;
+}
+.cont{
+  width:500px;
+  height: 267px;
+  position: absolute;
+  background-color:#87ceeb5c;
+  transform: rotate(45deg);
+  right:-274px;
+  top:-87px
+
+}
+.cont2{
+  width:1046px;
+  height: 310px;
+  position: absolute;
+  background-color:#ffeb3b66;
+  transform: rotate(45deg);
+  right:-261px;
+  top:13px
+}
+.cont3{
+  width:460px;
+  height: 485px;
+  position: absolute;
+  background-color:#fa807257;
+  left:70px;
+  top:75px
+}
+.cont4{
+  width:740px;
+  height: 334px;
+  position: absolute;
+  background-color:#00ff0054;
+  transform: rotate(-45deg);
+  right:116px;
+  bottom:-199px
+}
+.cont5{
+  width:203px;
+  height: 198px;
+  position: absolute;
+  background-color:#0000ff38;
+  transform: rotate(-45deg);
+  right:7px;
+  bottom:-129px
+}

@@ -1,0 +1,285 @@
+
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Itim', cursive;
+  letter-spacing: 1.2px;
+  color:#200f0c;
+  background-color: #fff;
+}
+h1{
+font-family: 'Satisfy', cursive;
+/* font-size: 2.4rem; */
+margin:0;
+letter-spacing: 2px;
+text-shadow: 3px 2px 0 #af9e93;
+}
+
+h3{
+font-size: 1.3rem;
+margin: 3px 0 10px 0;
+}
+
+b{
+  font-size: 3rem;
+  margin: 0 0 0 10px;
+  letter-spacing: 5px;
+  text-shadow: 2px 3px 1px #af9e93;
+  font-family: 'Satisfy', cursive;
+}
+
+h4{
+margin-top: 3px;
+font-size: 1.4rem;
+}
+
+h5{
+  margin-top:10px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 3px;
+  font-size: 0.9rem;
+}
+
+h6{
+  font-size: 0.8rem
+}
+.carousel-inner{
+  margin:20px 0 40px 0;
+}
+.BodyCont{
+  margin: 1px 0 0 0;
+  padding: 0;
+  width: 1300px;
+  height: 650px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav{
+width: 7%;
+height: 100%;
+margin: 0;
+padding:2px;
+text-align: center;
+/* border-style: outset; */
+box-shadow: 0 0 3px #c1c1c1fc ;
+/* flex-grow: 0.3; */
+}
+
+.logo{
+  margin: 20px auto;
+  width: 79px;
+  height: 80px;
+}
+.logo1{
+  margin: 10px auto;
+  width: 69px;
+  height: 60px;
+}
+.social{
+  margin: 5px auto;
+  width: 30px;
+  height: 30px;
+}
+img{
+  border-radius: 3px;
+}
+
+a{
+  text-decoration: none;
+  color:#200f0c;
+}
+ul{
+  text-align: left;
+  margin:0;
+  padding:10px 0 0 15px;
+}
+nav ul li{
+
+  list-style: none;
+  text-decoration: none;
+  color:;
+}
+#intPg{
+  color:red;
+}
+
+.container{
+  flex-grow: 9.9;
+  background: skyblue;
+  padding: 2px;
+  width: 95%;
+  height: 100%;
+  margin:0;
+  /* border: 1px solid red; */
+  position: relative;
+  overflow:hidden;
+  z-index: -2
+}
+
+.cont{
+  width:500px;
+  height: 267px;
+  position: absolute;
+  /* background-color:#87ceeb5c; */
+  transform: rotate(45deg);
+  right:-230px;
+  top:-112px
+}
+.cont11{
+  margin:auto;
+  width:440px;
+  height: 255px;
+  box-shadow:3px 8px 20px #c1c1c1fc;
+  background-color: white;
+  border-radius: 15px
+}
+.tail{
+  width:400px;
+  height: 250px;
+}
+.cont2{
+  width:1046px;
+  height: 325px;
+  position: absolute;
+  /* background-color:#ffeb3b66; */
+  transform: rotate(45deg);
+  right:-261px;
+  top:13px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cont20{
+  margin:auto;
+  width:340px;
+  height: 270px;
+  box-shadow:3px 8px 20px #c1c1c1fc;
+  background-color: white;
+  border-radius: 15px;
+
+}
+.cont21{
+  margin:auto;
+  width:270px;
+  height: 270px;
+  box-shadow:3px 8px 20px #c1c1c1fc;
+  background-color: white;
+  border-radius: 15px;
+
+}
+.cont22{
+  margin:auto;
+  width:370px;
+  height: 270px;
+  box-shadow:3px 8px 20px #c1c1c1fc;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+.proj1{
+  width: 320px;
+  height: 255px;
+  margin: 5px 3px 5px 8px;
+  border-radius: 40px;
+}
+.proj{
+  width: 270px;
+  height: 255px;
+  margin: 5px 5px 5px 10px;
+  border-radius: 15px;
+}
+.about{
+  width: 350px;
+  height: 250px;
+  margin: 9px 5px 5px 5px;
+  border-radius: 15px;
+}
+.cont3{
+  width:480px;
+  height: 480px;
+  position: absolute;
+  /* background-color:#df997b0f; */
+  box-shadow:inset 0 0 20px #c1c1c1fc;
+  left:5%;
+  top:12%;
+  text-align: center;
+  padding:10px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.mee{
+  width:180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.cont4{
+  width:740px;
+  height: 334px;
+  position: absolute;
+  /* background-color:#00ff0054; */
+  transform: rotate(-45deg);
+  right:108px;
+  bottom:-204px;
+  display: flex;
+  flex-direction: row;
+}
+.cont41{
+  margin:auto;
+  width:190px;
+  height: 306px;
+  box-shadow:8px 3px 20px #c1c1c1fc;
+  background-color: white;
+  border-radius: 15px
+}
+.cont42{
+  margin:auto;
+  width:315px;
+  height: 306px;
+  box-shadow:8px 5px 20px #c1c1c1fc;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.cv{
+  width:180px;
+  height: 306px;
+  border-radius: 15px;
+  margin:auto;
+}
+.cv2{
+  width:305px;
+  height: 306px;
+  border-radius: 15px;
+  margin: auto;
+}
+.cont5{
+  width:203px;
+  height: 232px;
+  position: absolute;
+  /* background-color:#0000ff38; */
+  transform: rotate(-45deg);
+  right:-4px;
+  bottom:-140px;
+  display: flex;
+  flex-direction: row;
+}
+.cont51{
+  margin:auto;
+  width:172px;
+  height: 175px;
+  box-shadow:8px 5px 20px #c1c1c1fc;
+  background-color: white;
+  border-radius: 15px
+}
+.code{
+  width: 168px;
+  height: 143px;
+  border-radius: 15px;
+  margin-top:3px;
+}
