@@ -22,7 +22,7 @@ body{
   margin: 0;
 }
 #navB{
-  display:none;
+  display:block;
 }
 
 .sBody{
@@ -71,10 +71,15 @@ text-align: center;
 box-shadow: 0 0 3px #c1c1c1fc ;
 }
 
-.logo, .logo2{
+.logo{
   margin: 20px auto;
   width: 79px;
   height: 80px;
+}
+.logo2{
+  margin: 8px auto;
+  width: 55px;
+  height: 60px;
 }
 .logo1{
   margin: 10px auto;
