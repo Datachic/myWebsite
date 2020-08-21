@@ -23,6 +23,14 @@ body{
 #navB{
   display:none;
 }
+.BodyCont{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:650px;
+  display: flex;
+  flex-grow: row;
+}
 
 .sBody{
   margin:0;
