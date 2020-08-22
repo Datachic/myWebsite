@@ -486,11 +486,19 @@ li.ddr #navbarDropdownMenuLink{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width:576px) and (max-width:767px) {
+  body{
+    letter-spacing: 0.5px;
+  }
+
   #navB{
-    display: block;
-    padding-left: 15px;
-    font-family: 'Itim', cursive;
-    padding-top: 10px ;
+  display: block;
+  padding-left: 15px;
+  font-family: 'Itim', cursive;
+  font-size: ;
+  padding-top: 10px ;
+  }
+  .nav-link.ff{
+  margin: 5px 0 0 1px;
   }
   .navbar-toggler{
     font-size: 1.2rem;
@@ -504,30 +512,128 @@ li.ddr #navbarDropdownMenuLink{
     border-radius: 7px;
    }
   .bg-dark{
-    background: #292929;
+    background: #262626;
   }
 
- .navbar-light .navbar-nav .nav-link{
+  .navbar-light .navbar-nav .nav-link{
     color:#200f0c;
   }
   .navbar-dark .navbar-nav .nav-link{
       color:#fff;
     }
-.dropdown{
+  .dropdown{
   margin:0.6rem 0;
-}
-li.ddr #navbarDropdownMenuLink {
-    margin: 8px 15px 10px 2px;
   }
-.dropdown-menu{
-  width:150px;
-  border: 0;
-  border-radius: 10px;
-}
 
- .barnav{
-      display: none;
+  li.ddr #navbarDropdownMenuLink{
+    margin: 3px 1px 2px 0.5px;
+  }
+  .dropdown-menu{
+      width:150px;
+      border: 0;
+      border-radius: 10px;
     }
+
+  h3{
+  font-size: 1rem;
+  margin: 3px 0 10px 0;
+  }
+  b{
+    font-size: 2.1rem;
+    margin: 0 0 0 10px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 1px #af9e93;
+  }
+
+  h4{
+  margin-top: 10px;
+  margin-bottom:40px;
+  font-size: 1.1rem;
+  }
+
+  h5{
+    margin-top:10px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 3px;
+    font-size: 0.7rem;
+  }
+
+  h6{
+    font-size: 0.8rem
+  }
+  .barnav{
+    display: none;
+  }
+  .bodyContain{
+    overflow:hidden;
+    z-index: -2
+  }
+
+  .tail{
+    display: block;
+    width: 150px;
+    height: 145px;
+    right: -39px;
+    top: -112px;
+  }
+
+  .code{
+    display:block;
+    right: -182px;
+    bottom: -77px;
+  }
+
+  .proj1{
+    width: 84px;
+    height: 145px;
+    right: 180px;
+    top: -99px
+  }
+  .about{
+    width: 163px;
+    height: 145px;
+    right: 49px;
+    top: -3px;
+  }
+
+  .proj{
+    width: 163px;
+    height: 145px;
+    right: -76px;
+    top: 123px;
+  }
+
+  .cont3{
+    width:70%;
+    height: 60%;
+    left:1%;
+    top:10%;
+    text-align: center;
+  }
+  .mee{
+    margin-top:50px;
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .cv{
+    width: 158px;
+    height: 230px;
+    right: 86px;
+    bottom: -55px;
+  }
+  .cv2{
+    width: 158px;
+      height: 230px;
+      right: -43px;
+      bottom: 72px;
+  }
+  .cont5{
+    display:none;
+  }
+
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
