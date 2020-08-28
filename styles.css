@@ -20,6 +20,38 @@ input {
 
 #navB {
   display: none;
+  padding-left: 15px;
+  font-family: 'Itim', cursive;
+  font-size: ;
+  padding-top: 10px;
+}
+
+.nav-link.ff {
+  margin: 5px 0 0 1px;
+}
+
+.navbar-toggler {
+  font-size: 1.2rem;
+}
+
+img.logo2 {
+  width: 57px;
+  height: 60px;
+  margin-right: 450px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+.bg-dark {
+  background: #262626;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #200f0c;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }
 
 li.ddr #navbarDropdownMenuLink {
@@ -41,7 +73,7 @@ h3 {
 }
 
 b {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400px;
   margin: 0 0 0 10px;
   letter-spacing: 5px;
@@ -51,7 +83,9 @@ b {
 
 h4 {
   margin-top: 3px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  margin-top:45px;
+  margin-bottom:40px;
 }
 
 h5 {
@@ -59,7 +93,7 @@ h5 {
   margin-bottom: 15px;
   margin-left: 0;
   margin-right: 3px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 h6 {
@@ -72,7 +106,7 @@ h6 {
   margin: 0;
   padding: 2px;
   text-align: center;
-  box-shadow: 0 0 8px #99043b;
+  box-shadow: 0 0 3px #c2c9c1;
   background: #292929;
 }
 
@@ -164,46 +198,46 @@ img.xxx {
 
 .tail {
   right: -264px;
-  top: -130px;
-  margin: auto;
-  width: 626px;
-  height: 298px;
-  transform: rotate(45deg);
+    top: -130px;
+    margin: auto;
+    width: 498px;
+    height: 281px;
+    transform: rotate(45deg);
 }
 
 .proj1 {
-  width: 336px;
-  height: 286px;
-  margin: 5px;
-  right: 330px;
-  top: -137px;
-  transform: rotate(45deg);
+  width: 288px;
+    height: 245px;
+    margin: 5px;
+    right: 265px;
+    top: -134px;
+    transform: rotate(45deg);
 }
 
 .about {
   transform: rotate(45deg);
-  width: 397px;
-  height: 281px;
+  width: 360px;
+  height: 245px;
   margin: 5px;
-  right: 22px;
-  top: 143px;
+  right: -20px;
+  top: 113px;
 }
 
 .proj {
-  width: 276px;
-  height: 281px;
-  margin: 5px;
-  transform: rotate(45deg);
-  right: -173px;
-  top: 399px;
+  width: 255px;
+    height: 245px;
+    margin: 5px;
+    transform: rotate(45deg);
+    right: -201px;
+    top: 346px;
 }
 
 .cont3 {
-  width: 40%;
+  width: 65%;
   height: 60%;
   position: absolute;
-  left: 5%;
-  top: 17%;
+  left: 1%;
+  top: 13%;
   text-align: center;
   padding: 10px;
   z-index: -1;
@@ -213,6 +247,7 @@ img.xxx {
   width: 180px;
   height: 180px;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 #aboutme {
@@ -221,30 +256,28 @@ img.xxx {
 
 .cv {
   width: 250px;
-  height: 370px;
-  margin: 5px;
-  transform: rotate(-45deg);
-  right: 475px;
-  bottom: -257px;
+    height: 300px;
+    margin: 5px;
+    transform: rotate(-45deg);
+    right: 355px;
+    bottom: -210px;
 }
 
 .cv2 {
   width: 250px;
-  height: 370px;
-  margin: 5px;
-  transform: rotate(-45deg);
-  right: 280px;
-  bottom: -61px;
+    height: 300px;
+    margin: 5px;
+    transform: rotate(-45deg);
+    right: 160px;
+    bottom: -13px;
 }
 
 .code {
-  width: 200px;
-  height: 163px;
-  width: 271px;
-  height: 154px;
-  transform: rotate(-45deg);
-  right: 80px;
-  bottom: -153px;
+  width: 252px;
+    height: 155px;
+    transform: rotate(-45deg);
+    right: -12px;
+    bottom: -110px;
 }
 
 /* Middle Container
@@ -280,42 +313,10 @@ img.xxx {
 
   #navB {
     display: block;
-    padding-left: 15px;
-    font-family: 'Itim', cursive;
-    font-size: ;
-    padding-top: 10px;
-  }
-
-  .nav-link.ff {
-    margin: 5px 0 0 1px;
-  }
-
-  .navbar-toggler {
-    font-size: 1.2rem;
-  }
-
-  img.logo2 {
-    width: 57px;
-    height: 60px;
-    margin-right: 450px;
-    margin-top: 20px;
-    border-radius: 7px;
-  }
-
-  .bg-dark {
-    background: #262626;
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: #200f0c;
-  }
-
-  .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
   }
 
   .dropdown {
-    margin: 0.6rem 0;
+    margin: 0.7rem 0;
   }
 
   li.ddr #navbarDropdownMenuLink {
@@ -343,7 +344,7 @@ img.xxx {
   h4 {
     margin-top: 20px;
     margin-bottom: 3px;
-    font-size: 0.7rem;
+    font-size: 0.55rem;
     line-height: 1.6;
     font-weight: 100;
     letter-spacing: 3px;
@@ -400,9 +401,9 @@ img.xxx {
   }
 
   .cont3 {
-    width: 90%;
+    width: 88%;
     height: 55%;
-    left: 4%;
+    left: 5%;
     top: 14%;
     text-align: center;
   }
@@ -468,18 +469,6 @@ img.xxx {
     border-radius: 7px;
   }
 
-  .bg-dark {
-    background: #262626;
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: #200f0c;
-  }
-
-  .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-  }
-
   .dropdown {
     margin: 0.6rem 0;
   }
@@ -501,8 +490,8 @@ img.xxx {
   }
 
   h4 {
-    font-size: 0.85rem;
-    margin-top: 25px;
+    font-size: 0.65rem;
+    margin-top: 30px;
     letter-spacing: 1.6px;
     line-height: 1.5;
   }
@@ -554,10 +543,10 @@ img.xxx {
   }
 
   .cont3 {
-    width: 75%;
+    width: 67%;
     height: 60%;
-    left: 7%;
-    top: 17%;
+    left: 10%;
+    top: 20%;
     text-align: center;
   }
 
@@ -611,15 +600,16 @@ img.xxx {
   h3 {}
 
   b {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     text-shadow: 2px 3px 2px #af9e93;
   }
 
   h4 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     letter-spacing: 2.3px;
     line-height: 1.4;
-    margin-top: 35px;
+    margin-top: 38px;
+    margin-bottom: 35px;
   }
 
   h5 {
@@ -670,43 +660,43 @@ img.xxx {
   }
 
   .cont3 {
-    width: 65%;
+    width: 70%;
     height: 60%;
-    left: 7%;
+    left: 4%;
     top: 15%;
     text-align: center;
   }
 
   .mee {
     margin: 15px 0;
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
   }
 
   .cv {
     width: 207px;
-    height: 253px;
-    right: 99px;
-    bottom: -111px;
+    height: 248px;
+    right: 118px;
+    bottom: -87px;
   }
 
   .cv2 {
     width: 207px;
-    height: 253px;
-    right: -61px;
-    bottom: 52px;
+    height: 248px;
+    right: -41px;
+    bottom: 73px;
   }
 
   .code {
     display: block;
     right: -182px;
-    bottom: -106px;
+    bottom: -73px;
   }
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1259.98px) {
   body {
     letter-spacing: 0.7px;
   }
@@ -715,8 +705,7 @@ img.xxx {
     display: none;
   }
 
-  .barnav {
-  }
+  .barnav {}
 
   .logo {
     margin: 70px auto;
@@ -727,6 +716,7 @@ img.xxx {
   .barnav .dropdown {
     margin: 0.8rem 0;
   }
+
   b {
     font-size: 2.1rem;
     text-shadow: 2px 3px 2px #af9e93;
@@ -734,9 +724,10 @@ img.xxx {
 
   h4 {
     font-size: 1rem;
-    letter-spacing: 2.3px;
+    letter-spacing: 2px;
     line-height: 1.4;
-    margin-top: 35px;
+    margin-top: 50px;
+    margin-bottom: 40px;
   }
 
   h5 {
@@ -757,69 +748,69 @@ img.xxx {
     width: 350px;
     height: 155px;
     right: -161px;
-    top: -26px;
+    top: -80px;
   }
 
   .proj1 {
-    width: 247px;
-    height: 250px;
-    right: 287px;
-    top: -151px;
+    width: 215px;
+    height: 225px;
+    right: 247px;
+    top: -157px;
   }
 
   .about {
-    width: 324px;
-    height: 250px;
-    right: 25px;
-    top: 65px;
+    width: 311px;
+    height: 225px;
+    right: -5px;
+    top: 47px;
   }
 
   .proj {
-    width: 247px;
-    height: 250px;
+    width: 210px;
+    height: 225px;
     right: -154px;
-    top: 284px;
+    top: 249px;
   }
 
   .cont3 {
-    width: 45%;
+    width: 60%;
     height: 60%;
     left: 6%;
-    top: 4%;
+    top: 8%;
     text-align: center;
   }
 
   .mee {
     margin-top: 50px;
-    width: 190px;
-    height: 190px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
   }
 
   .cv {
-    width: 230px;
-    height: 290px;
-    right: 329px;
-    bottom: -168px;
+    width: 225px;
+    height: 280px;
+    right: 255px;
+    bottom: -155px;
   }
 
   .cv2 {
-    width: 230px;
-    height: 290px;
-    right: 152px;
-    bottom: 11px;
+    width: 225px;
+    height: 280px;
+    right: 76px;
+    bottom: 22px;
   }
 
   .code {
     display: block;
-    right: -23px;
-    bottom: -106px;
-    width: 194px;
+    right: -104px;
+    bottom: -119px;
+    width: 241px;
     height: 192px;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media (min-width: 1260px) {
   ...
 }
