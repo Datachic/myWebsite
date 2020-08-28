@@ -238,7 +238,7 @@ img.xxx {
   position: absolute;
   left: 1%;
   top: 13%;
-  text-align: center;
+  text-align: left;
   padding: 10px;
   z-index: -1;
 }
@@ -405,7 +405,6 @@ img.xxx {
     height: 55%;
     left: 5%;
     top: 14%;
-    text-align: center;
   }
 
   .mee {
@@ -547,7 +546,6 @@ img.xxx {
     height: 60%;
     left: 10%;
     top: 20%;
-    text-align: center;
   }
 
   .mee {
@@ -664,7 +662,6 @@ img.xxx {
     height: 60%;
     left: 4%;
     top: 15%;
-    text-align: center;
   }
 
   .mee {
@@ -777,7 +774,6 @@ img.xxx {
     height: 60%;
     left: 6%;
     top: 8%;
-    text-align: center;
   }
 
   .mee {
