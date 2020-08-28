@@ -67,25 +67,27 @@ li.ddr #navbarDropdownMenuLink {
   flex-grow: row;
 }
 
-h3 {
-  font-size: 1.3rem;
-  margin: 3px 0 20px 0;
+h3{
+  margin: 0;
+  padding:0;
 }
-
-b {
+b{
   font-size: 2.5rem;
   font-weight: 400px;
-  margin: 0 0 0 10px;
+  margin: 0 0 10px 0;
   letter-spacing: 5px;
-  text-shadow: 2px 3px 1px #af9e93;
+  text-shadow: 2px 3px 4px #af9e93;
+  color: #99043b;
   /* font-family: 'Satisfy', cursive; */
 }
 
 h4 {
   margin-top: 3px;
   font-size: 1.2rem;
-  margin-top:45px;
+  margin-top: 45px;
   margin-bottom:40px;
+  font-weight: 300;
+
 }
 
 h5 {
@@ -247,7 +249,7 @@ img.xxx {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #aboutme {
@@ -328,25 +330,20 @@ img.xxx {
     border: 0;
     border-radius: 10px;
   }
-
-  h3 {
-    font-size: 0.6rem;
-    margin: 10px 0 10px 0;
+  .sBody {
+      width: 100%;
+      height: 630px;
   }
 
   b {
     font-size: 1.6rem;
-    margin: 0 0 0 10px;
-    letter-spacing: 5px;
-    text-shadow: 2px 2px 1px #af9e93;
   }
 
   h4 {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 3px;
     font-size: 0.55rem;
     line-height: 1.6;
-    font-weight: 100;
     letter-spacing: 3px;
   }
 
@@ -359,6 +356,7 @@ img.xxx {
   }
 
   h6 {
+    margin-top: 30px;
     font-size: 0.6rem;
   }
 
@@ -404,11 +402,11 @@ img.xxx {
     width: 88%;
     height: 55%;
     left: 5%;
-    top: 14%;
+    top: 10%;
   }
 
   .mee {
-    margin-top: 50px;
+    margin-top: 40px;
     width: 110px;
     height: 110px;
     border-radius: 50%;
