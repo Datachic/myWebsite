@@ -22,7 +22,7 @@ input {
   display: none;
   padding-left: 15px;
   font-family: 'Itim', cursive;
-  font-size: ;
+  /* font-size: ; */
   padding-top: 10px;
 }
 
@@ -62,17 +62,18 @@ li.ddr #navbarDropdownMenuLink {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 650px;
+  height: 630px;
   display: flex;
   flex-grow: row;
 }
 
-h3{
+h3 {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
-b{
-  font-size: 2.5rem;
+
+b {
+  font-size: 3rem;
   font-weight: 400px;
   letter-spacing: 5px;
   text-shadow: 2px 3px 4px #af9e93;
@@ -82,10 +83,9 @@ b{
 
 h4 {
   font-size: 1.2rem;
-  margin-top: 45px;
-  margin-bottom:40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   font-weight: 300;
-
 }
 
 h5 {
@@ -198,20 +198,20 @@ img.xxx {
 
 .tail {
   right: -264px;
-    top: -130px;
-    margin: auto;
-    width: 498px;
-    height: 281px;
-    transform: rotate(45deg);
+  top: -130px;
+  margin: auto;
+  width: 498px;
+  height: 281px;
+  transform: rotate(45deg);
 }
 
 .proj1 {
   width: 288px;
-    height: 245px;
-    margin: 5px;
-    right: 265px;
-    top: -134px;
-    transform: rotate(45deg);
+  height: 245px;
+  margin: 5px;
+  right: 265px;
+  top: -134px;
+  transform: rotate(45deg);
 }
 
 .about {
@@ -225,19 +225,19 @@ img.xxx {
 
 .proj {
   width: 255px;
-    height: 245px;
-    margin: 5px;
-    transform: rotate(45deg);
-    right: -201px;
-    top: 346px;
+  height: 245px;
+  margin: 5px;
+  transform: rotate(45deg);
+  right: -201px;
+  top: 346px;
 }
 
 .cont3 {
-  width: 65%;
+  width: 60%;
   height: 60%;
   position: absolute;
-  left: 1%;
-  top: 13%;
+  left: 7%;
+  top: 16%;
   text-align: left;
   padding: 10px;
   z-index: -1;
@@ -256,28 +256,28 @@ img.xxx {
 
 .cv {
   width: 250px;
-    height: 300px;
-    margin: 5px;
-    transform: rotate(-45deg);
-    right: 355px;
-    bottom: -210px;
+  height: 300px;
+  margin: 5px;
+  transform: rotate(-45deg);
+  right: 355px;
+  bottom: -210px;
 }
 
 .cv2 {
   width: 250px;
-    height: 300px;
-    margin: 5px;
-    transform: rotate(-45deg);
-    right: 160px;
-    bottom: -13px;
+  height: 300px;
+  margin: 5px;
+  transform: rotate(-45deg);
+  right: 160px;
+  bottom: -13px;
 }
 
 .code {
   width: 252px;
-    height: 155px;
-    transform: rotate(-45deg);
-    right: -12px;
-    bottom: -110px;
+  height: 155px;
+  transform: rotate(-45deg);
+  right: -12px;
+  bottom: -110px;
 }
 
 /* Middle Container
@@ -328,9 +328,10 @@ img.xxx {
     border: 0;
     border-radius: 10px;
   }
+
   .sBody {
-      width: 100%;
-      height: 630px;
+    width: 100%;
+    height: 630px;
   }
 
   b {
@@ -338,7 +339,7 @@ img.xxx {
   }
 
   h4 {
-    margin:0;
+    margin: 0;
     font-size: 0.55rem;
     line-height: 1.7;
     letter-spacing: 3px;
@@ -353,7 +354,7 @@ img.xxx {
   }
 
   h6 {
-    margin-top: 60px;
+    margin-top: 15px;
     font-size: 0.6rem;
   }
 
@@ -361,11 +362,10 @@ img.xxx {
     display: none;
   }
 
-  .bodyContain {
+  /* .bodyContain {
     overflow: hidden;
     z-index: -2
-  }
-
+  } */
   .tail {
     display: none;
   }
@@ -396,17 +396,16 @@ img.xxx {
   }
 
   .cont3 {
-    width: 92%;
+    width: 94%;
     height: 55%;
-    left: 5%;
-    top: 13%;
+    left: 3%;
+    top: 17%;
   }
 
   .mee {
     margin-top: 40px;
     width: 110px;
     height: 110px;
-    border-radius: 50%;
   }
 
   .cv {
@@ -478,14 +477,13 @@ img.xxx {
   }
 
   b {
-    font-size: 1.7rem;
-    margin: 15px 0 3px 0;
-    text-shadow: 2px 3px 1px #af9e93;
+    font-size: 2.1rem;
+    margin: 0;
   }
 
   h4 {
-    font-size: 0.65rem;
-    margin-top: 30px;
+    margin: 0;
+    font-size: 0.85rem;
     letter-spacing: 1.6px;
     line-height: 1.5;
   }
@@ -495,7 +493,8 @@ img.xxx {
   }
 
   h6 {
-    font-size: 0.7rem
+    font-size: 0.7rem;
+    margin-top: 20px;
   }
 
   .barnav {
@@ -537,16 +536,16 @@ img.xxx {
   }
 
   .cont3 {
-    width: 67%;
+    width: 60%;
     height: 60%;
-    left: 10%;
-    top: 20%;
+    left: 15%;
+    top: 17%;
   }
 
   .mee {
-    margin: 7px 0;
-    width: 120px;
-    height: 120px;
+    margin-top: 35px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
   }
 
@@ -554,14 +553,14 @@ img.xxx {
     width: 169px;
     height: 216px;
     right: 50px;
-    bottom: -33px;
+    bottom: -47px;
   }
 
   .cv2 {
     width: 169px;
     height: 216px;
-    right: -84px;
-    bottom: 100px;
+    right: -82px;
+    bottom: 86px;
   }
 
   .code {
@@ -593,16 +592,16 @@ img.xxx {
   h3 {}
 
   b {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     text-shadow: 2px 3px 2px #af9e93;
   }
 
   h4 {
-    font-size: 0.8rem;
-    letter-spacing: 2.3px;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
     line-height: 1.4;
-    margin-top: 38px;
-    margin-bottom: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   h5 {
@@ -611,7 +610,8 @@ img.xxx {
   }
 
   h6 {
-    font-size: 0.8rem
+    font-size: 0.8rem;
+    margin-top:10px;
   }
 
   .barnav {
@@ -627,62 +627,62 @@ img.xxx {
     display: block;
     width: 244px;
     height: 155px;
-    right: -165px;
+    right: -160px;
     top: -70px;
   }
 
   .proj1 {
     width: 190px;
-    height: 170px;
-    right: 161px;
+    height: 200px;
+    right: 172px;
     top: -129px;
   }
 
   .about {
     width: 263px;
-    height: 170px;
-    right: -51px;
+    height: 200px;
+    right: -39px;
     top: 42px;
   }
 
   .proj {
     width: 216px;
-    height: 170px;
-    right: -207px;
+    height: 200px;
+    right: -195px;
     top: 221px;
   }
 
   .cont3 {
-    width: 70%;
+    width: 64%;
     height: 60%;
-    left: 4%;
-    top: 15%;
+    left: 6%;
+    top: 17%;
   }
 
   .mee {
     margin: 15px 0;
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
   }
 
   .cv {
-    width: 207px;
-    height: 248px;
-    right: 118px;
-    bottom: -87px;
+    width: 172px;
+    height: 246px;
+    right: 138px;
+    bottom: -74px;
   }
 
   .cv2 {
-    width: 207px;
-    height: 248px;
-    right: -41px;
-    bottom: 73px;
+    width: 172px;
+    height: 246px;
+    right: 3px;
+    bottom: 59px;
   }
 
   .code {
     display: block;
-    right: -182px;
+    right: -156px;
     bottom: -73px;
   }
 }
@@ -710,25 +710,23 @@ img.xxx {
   }
 
   b {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     text-shadow: 2px 3px 2px #af9e93;
   }
 
   h4 {
-    font-size: 1rem;
+    font-size: 1.05rem;
     letter-spacing: 2px;
     line-height: 1.4;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 10px;
   }
 
   h5 {
     font-size: 0.65rem;
-    letter-spacing: 2px;
   }
 
-  h3 {
-    margin-bottom: 0.7rem;
+  h6 {
+    margin-top:25px;
   }
 
   .barnav {
@@ -765,29 +763,28 @@ img.xxx {
   }
 
   .cont3 {
-    width: 60%;
+    width: 56%;
     height: 60%;
     left: 6%;
-    top: 8%;
+    top: 10%;
   }
 
   .mee {
     margin-top: 50px;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
+    width: 180px;
+    height: 180px;
   }
 
   .cv {
     width: 225px;
-    height: 280px;
+    height: 270px;
     right: 255px;
     bottom: -155px;
   }
 
   .cv2 {
     width: 225px;
-    height: 280px;
+    height: 270px;
     right: 76px;
     bottom: 22px;
   }
